@@ -19,10 +19,16 @@ namespace SmallSteps003
             result_multiply = 0;
             result_division = 0;
 
+            result_addition = a + b;
+            result_substraction = a - b;
+            result_multiply = a * b;
+            result_division = a / b;
+
+
             Console.WriteLine("Der Rechenking sagt {0} + {1} = {2}", a, b, result_addition);
             Console.WriteLine("Der Rechenking sagt {0} - {1} = {2}", a, b, result_substraction);
-            Console.WriteLine("Der Rechenking sagt {0} * {1} = {2}", a, b, 0);
-            Console.WriteLine("Der Rechenking sagt {0} / {1} = {2}", a, b, 0);
+            Console.WriteLine("Der Rechenking sagt {0} * {1} = {2}", a, b, result_multiply);
+            Console.WriteLine("Der Rechenking sagt {0} / {1} = {2}", a, b, result_division);
         }
     }
 }
